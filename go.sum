@@ -3,6 +3,7 @@ bitbucket.org/atlassian/go-asap v0.0.0-20190528201952-3e884c030d60/go.mod h1:trJ
 github.com/SermoDigital/jose v0.0.0-20161205224733-f6df55f235c2/go.mod h1:ARgCUhI1MHQH+ONky/PAtmVHQrP5JlGY0F3poXOp/fA=
 github.com/SermoDigital/jose v0.9.2-0.20161205224733-f6df55f235c2 h1:koK7z0nSsRiRiBWwa+E714Puh+DO+ZRdIyAXiXzL+lg=
 github.com/SermoDigital/jose v0.9.2-0.20161205224733-f6df55f235c2/go.mod h1:ARgCUhI1MHQH+ONky/PAtmVHQrP5JlGY0F3poXOp/fA=
+github.com/andreyvit/diff v0.0.0-20170406064948-c7f18ee00883/go.mod h1:rCTlJbsFo29Kk6CurOXKm700vrz8f0KW0JNfpkRJY/8=
 github.com/asecurityteam/httpstats v0.0.0-20190225132931-c2085dfd2a77 h1:jFeWfsi7crXrwEyhsSxyC5fyPUebliK+U+osz32ktr0=
 github.com/asecurityteam/httpstats v0.0.0-20190225132931-c2085dfd2a77/go.mod h1:YWoaRFEA0yLmRlvDZO5tWrEeI2Bu0lXHEY26Fm5bHDs=
 github.com/asecurityteam/logevent v0.0.0-20190225122144-b32737d8d51c h1:v630DsE4nvEfDCdi7OJhoHyNTPwuBplkTfGdv9WogbE=
@@ -11,6 +12,8 @@ github.com/asecurityteam/runhttp v0.0.0-20190611212819-e67777b27ba7 h1:NMwF6nzC2
 github.com/asecurityteam/runhttp v0.0.0-20190611212819-e67777b27ba7/go.mod h1:13Zb/7m5FQVu1gHjt+YDse6aqfJ5LuC79u8xjM64jrI=
 github.com/asecurityteam/settings v0.1.0 h1:W5CA/x0gby2Ilo6zV0GQVqgDdMX7AvcH8lMbrS718Io=
 github.com/asecurityteam/settings v0.1.0/go.mod h1:Wb6bajm1AgHtjLP8ecv7RqUTCX1hvrIhgX4sF3Ras8c=
+github.com/asecurityteam/settings v0.4.0 h1:L7fK4WqkvnvglBrfLBgp77LUDR2cxfSNWGFex7lrMK0=
+github.com/asecurityteam/settings v0.4.0/go.mod h1:frhlF5kT7WvdiRX3eQlCOjSppbYUfxxjM9xKTvYjcGo=
 github.com/asecurityteam/transport v0.0.0-20190225122138-b848ebf618ee h1:pcVkgdO6BYvnOX/mJLDogdPnMq0XaEpJLtsOhHUiZKA=
 github.com/asecurityteam/transport v0.0.0-20190225122138-b848ebf618ee/go.mod h1:0OVTikRn0uMRQsFsslN4ozUaD5YaRPUpqHTBzTsOtaM=
 github.com/asecurityteam/transportd v0.3.0 h1:ReWFek++o2L9iYESsZxV8V9SdvHD8z+io5xN5skEJKE=
@@ -43,6 +46,7 @@ github.com/rs/xstats v0.0.0-20170813190920-c67367528e16/go.mod h1:5Cg6M3g+Dp4RSF
 github.com/rs/zerolog v1.14.3 h1:4EGfSkR2hJDB0s3oFfrlPqjU1e4WLncergLil3nEKW0=
 github.com/rs/zerolog v1.14.3/go.mod h1:3WXPzbXEEliJ+a6UFE4vhIxV8qR1EML6ngzP9ug4eYg=
 github.com/satori/go.uuid v1.2.0/go.mod h1:dA0hQrYB0VpLJoorglMZABFdXlWrHn1NEOzdhQKdks0=
+github.com/sergi/go-diff v1.0.0/go.mod h1:0CfEIISq7TuYL3j771MWULgwwjU+GofnZX9QAmXWZgo=
 github.com/spf13/cast v1.3.0 h1:oget//CVOEoFewqQxwr0Ej5yjygnqGkvggSE/gB35Q8=
 github.com/spf13/cast v1.3.0/go.mod h1:Qx5cxh0v+4UWYiBimWS+eyWzqEqokIECu5etghLkUJE=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
