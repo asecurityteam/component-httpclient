@@ -9,7 +9,7 @@ require (
 	github.com/asecurityteam/runhttp v0.0.0-20190611212819-e67777b27ba7 // indirect
 	github.com/asecurityteam/settings v0.4.0
 	github.com/asecurityteam/transport v0.0.0-20190225122138-b848ebf618ee
-	github.com/asecurityteam/transportd v0.3.0
+	github.com/asecurityteam/transportd v1.2.4
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/getkin/kin-openapi v0.0.0-20190606143930-b820876da6b5 // indirect
 	github.com/google/uuid v1.1.1 // indirect
