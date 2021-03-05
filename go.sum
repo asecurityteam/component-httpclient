@@ -58,6 +58,8 @@ github.com/asecurityteam/transport v1.4.0 h1:vHAfsCNWW7jDfhLBUUyU+0daSJ6A0rdIbIP
 github.com/asecurityteam/transport v1.4.0/go.mod h1:0xMNyMZ8UYoW7VK+kP4xCIK/pwPBQCjTMcP+PqQIFBo=
 github.com/asecurityteam/transport v1.5.2 h1:JUjMyQa3/gNddO1zs1gUi9wa3xnlG6/hVXh44cRVagQ=
 github.com/asecurityteam/transport v1.5.2/go.mod h1:qfuYUhtdNiKiwrTAwCuBC2kZuLIyhHHYp5AleGc6uAE=
+github.com/asecurityteam/transport v1.6.2 h1:zJCl1671VSeenGxvx+RWRtcBj57VFZL4UI6gBIF80fw=
+github.com/asecurityteam/transport v1.6.2/go.mod h1:qfuYUhtdNiKiwrTAwCuBC2kZuLIyhHHYp5AleGc6uAE=
 github.com/asecurityteam/transportd v0.3.0 h1:ReWFek++o2L9iYESsZxV8V9SdvHD8z+io5xN5skEJKE=
 github.com/asecurityteam/transportd v0.3.0/go.mod h1:4X8x+TzBC+9/ct4jEwbfl9QaAArLnEkfmjV6DT9l9kw=
 github.com/asecurityteam/transportd v1.2.4 h1:dbbJfRioaG9OKq6lrnXTeOjVwhP/ErY6DCkn2FPpHU4=
