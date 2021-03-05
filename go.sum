@@ -58,10 +58,14 @@ github.com/asecurityteam/transport v1.4.0 h1:vHAfsCNWW7jDfhLBUUyU+0daSJ6A0rdIbIP
 github.com/asecurityteam/transport v1.4.0/go.mod h1:0xMNyMZ8UYoW7VK+kP4xCIK/pwPBQCjTMcP+PqQIFBo=
 github.com/asecurityteam/transport v1.5.2 h1:JUjMyQa3/gNddO1zs1gUi9wa3xnlG6/hVXh44cRVagQ=
 github.com/asecurityteam/transport v1.5.2/go.mod h1:qfuYUhtdNiKiwrTAwCuBC2kZuLIyhHHYp5AleGc6uAE=
+github.com/asecurityteam/transport v1.6.2 h1:zJCl1671VSeenGxvx+RWRtcBj57VFZL4UI6gBIF80fw=
+github.com/asecurityteam/transport v1.6.2/go.mod h1:qfuYUhtdNiKiwrTAwCuBC2kZuLIyhHHYp5AleGc6uAE=
 github.com/asecurityteam/transportd v0.3.0 h1:ReWFek++o2L9iYESsZxV8V9SdvHD8z+io5xN5skEJKE=
 github.com/asecurityteam/transportd v0.3.0/go.mod h1:4X8x+TzBC+9/ct4jEwbfl9QaAArLnEkfmjV6DT9l9kw=
 github.com/asecurityteam/transportd v1.2.4 h1:dbbJfRioaG9OKq6lrnXTeOjVwhP/ErY6DCkn2FPpHU4=
 github.com/asecurityteam/transportd v1.2.4/go.mod h1:cH+bjiUMIb5PvMnLXKDmj9AhfR8LGVgCELo4+aoWO1k=
+github.com/asecurityteam/transportd v1.3.1 h1:9XaM8qBuinKCf7MGWue6edA2BAYP4zoCH2UwA7MqusA=
+github.com/asecurityteam/transportd v1.3.1/go.mod h1:RUdTrOQ/K13ceY0l69hIvdaU7gRjUSGlkyLvyy7FYHc=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
 github.com/bradfitz/go-smtpd v0.0.0-20170404230938-deb6d6237625/go.mod h1:HYsPBTaaSFSlLx/70C2HPIMNZpVV8+vt/A+FMnYP11g=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
