@@ -1,6 +1,6 @@
 module github.com/asecurityteam/component-httpclient
 
-go 1.12
+go 1.19
 
 require (
 	github.com/asecurityteam/settings v0.5.0
