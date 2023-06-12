@@ -18,6 +18,8 @@ const (
 	TypeDefault = "DEFAULT"
 	// TypeSmart is used to select the transportd HTTP client.
 	TypeSmart = "SMART"
+	// HeaderContentType Key for Content-Type HTTP Header.
+	HeaderContentType = "Content-Type"
 )
 
 // DefaultConfig contains all settings for the default Go HTTP client.
@@ -38,8 +40,12 @@ func (*DefaultComponent) Settings() *DefaultConfig {
 // New constructs a client from the given configuration
 func (*DefaultComponent) New(ctx context.Context, conf *DefaultConfig) (http.RoundTripper, error) {
 	return transport.NewHeader(
-		func(*http.Request) (string, string) {
-			return "Content-Type", conf.ContentType
+		func(request *http.Request) (string, string) {
+			contentType := request.Header.Get(HeaderContentType)
+			if contentType == "" {
+				contentType = conf.ContentType
+			}
+			return HeaderContentType, contentType
 		},
 	)(http.DefaultTransport), nil
 }
