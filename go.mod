@@ -22,5 +22,6 @@ require (
 	golang.org/x/sys v0.6.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace gopkg.in/yaml.v2 => gopkg.in/yaml.v2@2.2.8
+replace (
+	gopkg.in/yaml.v2 => gopkg.in/yaml.v2 v2.2.8
+)
