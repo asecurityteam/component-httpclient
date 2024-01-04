@@ -1,0 +1,24 @@
+name: GoLang CI
+on:
+  push:
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Dependencies
+        run: make dep
+      - name: Lint
+        run: make lint
+      - name: Unit Tests
+        run: make test
+      - name: Integration Tests
+        run: make integration
+      - name: Gather Coverage
+        run: make coverage
+      - name: Upload Coverage
+        continue-on-error: true
+        run: bash <(curl -s https://codecov.io/bash) -f .coverage/combined.cover.out
