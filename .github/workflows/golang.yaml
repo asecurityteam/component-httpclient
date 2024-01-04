@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Dependencies
-        run: make dep
+        run: chmod 777 -R "$(pwd)" && make dep
       - name: Lint
         run: make lint
       - name: Unit Tests
