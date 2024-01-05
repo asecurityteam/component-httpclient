@@ -80,7 +80,7 @@ func (c *Component) New(ctx context.Context, conf *Config) (http.RoundTripper, e
 	case strings.EqualFold(conf.Type, TypeDefault):
 		return c.Default.New(ctx, conf.Default)
 	case strings.EqualFold(conf.Type, TypeSmart):
-		return nil, fmt.Errorf("smart HTTP client type based on transportd is depeciated")
+		return nil, fmt.Errorf("smart HTTP client type based on transportd is depecated")
 	default:
 		return nil, fmt.Errorf("unknown HTTP client type %s", conf.Type)
 	}
