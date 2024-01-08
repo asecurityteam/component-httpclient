@@ -19,13 +19,10 @@
 <a id="markdown-overview" name="overview"></a>
 ## Overview
 
-This is a [`settings`](https://github.com/asecurityteam/settings) that enables
-constructing a smart HTTP client from a
-[`transportd`](https://github.com/asecurityteam/settings) configuration. The
-purpose of this component is to enable Go projects using `transportd` as a proxy
-to statically link the proxy behavior with the Go application. We use this,
-for example, to run our code in serverless environments where additional
-functionality cannot be run as a separate process.
+This is a [`settings`](https://github.com/asecurityteam/settings) component that enables
+constructing a simple HTTP client.
+Using `SMART` client from  [`transportd`](https://github.com/asecurityteam/settings) configuration is no longer 
+supported as we no longer maintain `transportd` as of January 2024.
 
 <a id="markdown-quick-start" name="quick-start"></a>
 ## Quick Start
