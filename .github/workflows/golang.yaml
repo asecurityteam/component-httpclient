@@ -1,24 +1,27 @@
-name: GoLang CI
-on:
-  push:
-  pull_request:
-    branches: [ "master" ]
+on: [push]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  golang:
+    runs-on: ubuntu-latest # we execute everything except make in docker anyway
+    name: GoLang Basics
     steps:
-      - uses: actions/checkout@v3
-      - name: Dependencies
-        run: chmod 777 -R "$(pwd)" && make dep
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: FS Permissions
+        # workaround for permissions with contaner attempting to create directories
+        run: chmod 777 -R "$(pwd)"
+      - name: Dep
+        run: make dep
       - name: Lint
         run: make lint
       - name: Unit Tests
         run: make test
       - name: Integration Tests
         run: make integration
-      - name: Gather Coverage
+      - name: Test Coverage
         run: make coverage
       - name: Upload Coverage
-        continue-on-error: true
-        run: bash <(curl -s https://codecov.io/bash) -f .coverage/combined.cover.out
+        uses: codecov/codecov-action@v4
+        with:
+          files: .coverage/combined.cover.out
+          token: ${{ secrets.CODECOV_TOKEN }} 
