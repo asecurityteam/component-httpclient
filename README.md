@@ -1,8 +1,6 @@
 <a id="markdown-component-httpclient---settings-component-for-generate-http-clients" name="component-httpclient---settings-component-for-generate-http-clients"></a>
 # component-httpclient - Settings component for generate HTTP clients
 [![GoDoc](https://godoc.org/github.com/asecurityteam/component-httpclient?status.svg)](https://godoc.org/github.com/asecurityteam/component-httpclient)
-[![Build Status](https://travis-ci.com/asecurityteam/component-httpclient.png?branch=master)](https://travis-ci.com/asecurityteam/component-httpclient)
-[![codecov.io](https://codecov.io/github/asecurityteam/component-httpclient/coverage.svg?branch=master)](https://codecov.io/github/asecurityteam/component-httpclient?branch=master)
 <!-- TOC -->
 
 - [component-httpclient - Settings component for generate HTTP clients](#component-httpclient---settings-component-for-generate-http-clients)
