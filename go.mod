@@ -4,8 +4,8 @@ go 1.17
 
 require (
 	github.com/asecurityteam/settings v1.0.0
-	github.com/asecurityteam/transport v1.6.7
-	github.com/stretchr/testify v1.7.0
+	github.com/asecurityteam/transport v1.6.8
+	github.com/stretchr/testify v1.9.0
 )
 
 require (
@@ -23,5 +23,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 replace (
-	gopkg.in/yaml.v2 => gopkg.in/yaml.v2 v2.2.8
+	gopkg.in/yaml.v3 => gopkg.in/yaml.v2 v3.0.1
 )
