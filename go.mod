@@ -19,9 +19,9 @@ require (
 	github.com/rs/zerolog v1.30.0 // indirect
 	github.com/sergi/go-diff v1.2.0 // indirect
 	github.com/spf13/cast v1.5.1 // indirect
+	golang.org/x/net v0.7.0 // indirect
 	golang.org/x/sys v0.6.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-replace (
-	gopkg.in/yaml.v2 => gopkg.in/yaml.v2 v2.2.8
-)
+
+replace gopkg.in/yaml.v2 => gopkg.in/yaml.v2 v2.2.8
