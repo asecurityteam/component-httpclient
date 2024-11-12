@@ -22,9 +22,6 @@ linters-settings:
   govet:
     # report about shadowed variables
     check-shadowing: true
-  golint:
-    # minimal confidence for issues, default is 0.8
-    min-confidence: 0.8
   gofmt:
     # simplify code: gofmt with `-s` option, true by default
     simplify: false
@@ -40,10 +37,11 @@ linters-settings:
     # minimal occurrences count to trigger, 3 by default
     min-occurrences: 3
   depguard:
-    list-type: blacklist
-    include-go-root: false
-    packages:
-      - github.com/davecgh/go-spew/spew
+    rules:
+      main:
+        deny:
+          - pkg: github.com/davecgh/go-spew/spew
+            desc: not allowed to use spew
   misspell:
     # Correct spellings using locale preferences for US or UK.
     # Default is to use a neutral variety of English.
@@ -87,11 +85,7 @@ linters:
     - staticcheck
     - unused
     - gosimple
-    - structcheck
-    - varcheck
     - ineffassign
-    - deadcode
-    - golint
     - gosec
     - unconvert
     - goconst

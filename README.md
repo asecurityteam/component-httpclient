@@ -1,8 +1,6 @@
 <a id="markdown-component-httpclient---settings-component-for-generate-http-clients" name="component-httpclient---settings-component-for-generate-http-clients"></a>
 # component-httpclient - Settings component for generate HTTP clients
 [![GoDoc](https://godoc.org/github.com/asecurityteam/component-httpclient?status.svg)](https://godoc.org/github.com/asecurityteam/component-httpclient)
-[![Build Status](https://travis-ci.com/asecurityteam/component-httpclient.png?branch=master)](https://travis-ci.com/asecurityteam/component-httpclient)
-[![codecov.io](https://codecov.io/github/asecurityteam/component-httpclient/coverage.svg?branch=master)](https://codecov.io/github/asecurityteam/component-httpclient?branch=master)
 <!-- TOC -->
 
 - [component-httpclient - Settings component for generate HTTP clients](#component-httpclient---settings-component-for-generate-http-clients)
@@ -19,13 +17,10 @@
 <a id="markdown-overview" name="overview"></a>
 ## Overview
 
-This is a [`settings`](https://github.com/asecurityteam/settings) that enables
-constructing a smart HTTP client from a
-[`transportd`](https://github.com/asecurityteam/settings) configuration. The
-purpose of this component is to enable Go projects using `transportd` as a proxy
-to statically link the proxy behavior with the Go application. We use this,
-for example, to run our code in serverless environments where additional
-functionality cannot be run as a separate process.
+This is a [`settings`](https://github.com/asecurityteam/settings) component that enables
+constructing a simple HTTP client.
+Using `SMART` client from  [`transportd`](https://github.com/asecurityteam/settings) configuration is no longer 
+supported as we no longer maintain `transportd` as of January 2024.
 
 <a id="markdown-quick-start" name="quick-start"></a>
 ## Quick Start
