@@ -8,7 +8,7 @@ import (
 
 	"github.com/asecurityteam/transport"
 
-	"github.com/asecurityteam/settings"
+	"github.com/asecurityteam/settings/v2"
 )
 
 const (
