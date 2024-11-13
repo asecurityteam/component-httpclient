@@ -2,7 +2,7 @@ module github.com/asecurityteam/component-httpclient
 
 go 1.22
 
-toolchain go1.22.5
+toolchain go1.23.3
 
 require (
 	github.com/asecurityteam/settings/v2 v2.0.1
@@ -27,4 +27,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace gopkg.in/yaml.v3 => gopkg.in/yaml.v2 v2.4.0
+replace gopkg.in/yaml.v3 => gopkg.in/yaml.v3 v3.0.1
