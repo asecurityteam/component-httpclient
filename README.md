@@ -93,15 +93,3 @@ you are an individual you can fill out the [individual
 CLA](https://na2.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=3f94fbdc-2fbe-46ac-b14c-5d152700ae5d).
 If you are contributing on behalf of your company then please fill out the [corporate
 CLA](https://na2.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=e1c17c66-ca4d-4aab-a953-2c231af4a20b).
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=bugs)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=code_smells)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=coverage)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=ncloc)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=alert_status)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=security_rating)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
-[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=sqale_index)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
-
