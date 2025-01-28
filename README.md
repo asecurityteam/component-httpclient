@@ -1,5 +1,19 @@
 # component-httpclient - Settings component for generate HTTP clients
 [![GoDoc](https://godoc.org/github.com/asecurityteam/component-httpclient?status.svg)](https://godoc.org/github.com/asecurityteam/component-httpclient)
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=bugs)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=code_smells)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=coverage)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=ncloc)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=alert_status)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=security_rating)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=sqale_index)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_component-httpclient&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=asecurityteam_component-httpclient)
+
+
 <!-- TOC -->autoauto- [component-httpclient - Settings component for generate HTTP clients](#component-httpclient---settings-component-for-generate-http-clients)auto    - [Overview](#overview)auto    - [Quick Start](#quick-start)auto    - [Status](#status)auto    - [Contributing](#contributing)auto        - [Building And Testing](#building-and-testing)auto        - [License](#license)auto        - [Contributing Agreement](#contributing-agreement)autoauto<!-- /TOC -->
 
 ## Overview
