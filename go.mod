@@ -2,12 +2,12 @@ module github.com/asecurityteam/component-httpclient
 
 go 1.22
 
-toolchain go1.22.5
+toolchain go1.24.3
 
 require (
-	github.com/asecurityteam/settings/v2 v2.0.1
+	github.com/asecurityteam/settings/v2 v2.0.3
 	github.com/asecurityteam/transport v1.7.1
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 )
 
 require (
@@ -19,12 +19,10 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rs/zerolog v1.33.0 // indirect
-	github.com/sergi/go-diff v1.2.0 // indirect
-	github.com/spf13/cast v1.7.0 // indirect
+	github.com/spf13/cast v1.8.0 // indirect
 	golang.org/x/net v0.23.0 // indirect
 	golang.org/x/sys v0.24.0 // indirect
-	gopkg.in/yaml.v2 v2.2.4 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace gopkg.in/yaml.v3 => gopkg.in/yaml.v2 v2.4.0
+replace gopkg.in/yaml.v3 => gopkg.in/yaml.v3 v3.0.1
