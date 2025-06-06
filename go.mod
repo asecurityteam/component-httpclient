@@ -2,16 +2,16 @@ module github.com/asecurityteam/component-httpclient
 
 go 1.22
 
-toolchain go1.24.3
+toolchain go1.24.4
 
 require (
 	github.com/asecurityteam/settings/v2 v2.0.3
-	github.com/asecurityteam/transport v1.7.1
+	github.com/asecurityteam/transport v1.7.2
 	github.com/stretchr/testify v1.10.0
 )
 
 require (
-	github.com/asecurityteam/logevent/v2 v2.0.1 // indirect
+	github.com/asecurityteam/logevent/v2 v2.0.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
