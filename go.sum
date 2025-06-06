@@ -1,11 +1,11 @@
 github.com/andreyvit/diff v0.0.0-20170406064948-c7f18ee00883 h1:bvNMNQO63//z+xNgfBlViaCIJKLlCJ6/fmUseuG0wVQ=
 github.com/andreyvit/diff v0.0.0-20170406064948-c7f18ee00883/go.mod h1:rCTlJbsFo29Kk6CurOXKm700vrz8f0KW0JNfpkRJY/8=
-github.com/asecurityteam/logevent/v2 v2.0.1 h1:2JMgyGZFwSOm+sKGlDZUQe0DCdUcmD0cFU6SqbJ4YKI=
-github.com/asecurityteam/logevent/v2 v2.0.1/go.mod h1:g6tvuTu9o9gC3vluYjAXr069xAfc4rJ2Hy/vsmuT1Ck=
+github.com/asecurityteam/logevent/v2 v2.0.2 h1:dPPRNqnMgjvHTf/NxpvrgAjAPvA7AG/bF2FnCrDnoD0=
+github.com/asecurityteam/logevent/v2 v2.0.2/go.mod h1:cCjepcJdgAKoVfOTftnZ/Mp0WMsfwgaJ75UOjfKTxVU=
 github.com/asecurityteam/settings/v2 v2.0.3 h1:dYdghLR/4RvB6PRXZQAB3phz5yj5JMAz9uZ8Y4StxAA=
 github.com/asecurityteam/settings/v2 v2.0.3/go.mod h1:Qa/2EIsIvqNv5xD9xrmea7mLo+7+ZFbKpJWB7HPjfwM=
-github.com/asecurityteam/transport v1.7.1 h1:CetFHBCXZ00qXSKde/2JHfRaSdfqkXigRyv28cfUeF4=
-github.com/asecurityteam/transport v1.7.1/go.mod h1:IFn8jcZUvAcli+DwT5wboswE9DrCeXXJOvgIUctzXgA=
+github.com/asecurityteam/transport v1.7.2 h1:VV2ri2mg9MSIuYZqSP3C8OanL6nkyzj65SBkq5XKQQY=
+github.com/asecurityteam/transport v1.7.2/go.mod h1:YFTaALNdNOfNpUSOiIO/HB5JL+2e2nfgytvlTvBFQGM=
 github.com/coreos/go-systemd/v22 v22.5.0/go.mod h1:Y58oyj3AT4RCenI/lSvhwexgC+NSVTIJ3seZv2GcEnc=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
