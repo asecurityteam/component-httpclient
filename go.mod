@@ -1,8 +1,6 @@
 module github.com/asecurityteam/component-httpclient
 
-go 1.22
-
-toolchain go1.24.4
+go 1.24.4
 
 require (
 	github.com/asecurityteam/settings/v2 v2.0.3
