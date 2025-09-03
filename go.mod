@@ -1,6 +1,6 @@
 module github.com/asecurityteam/component-httpclient
 
-go 1.22
+go 1.25.1
 
 toolchain go1.24.4
 
