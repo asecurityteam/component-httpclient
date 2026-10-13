@@ -1,8 +1,6 @@
 module github.com/asecurityteam/component-httpclient
 
-go 1.22
-
-toolchain go1.24.4
+go 1.25.0
 
 require (
 	github.com/asecurityteam/settings/v2 v2.0.3
@@ -20,8 +18,8 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rs/zerolog v1.33.0 // indirect
 	github.com/spf13/cast v1.8.0 // indirect
-	golang.org/x/net v0.23.0 // indirect
-	golang.org/x/sys v0.24.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
